@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: aquamarine;
+    border-radius: 3%;
+    width: auto;
+}
+.container img{
+    
+}
+}
+.list{
+    background-color:aqua;
+    border-radius: 3px;
+}
+
+.list a{
+    text-decoration: none;
+    color: black;
+    padding: 20% 20% 20% 20%;
+}
+.servicios{
+    background-color: blanchedalmond;
+}
+.cita{
+    background-color: aquamarine;
+}
+.contacto{
+    background-color: aqua;
+}
