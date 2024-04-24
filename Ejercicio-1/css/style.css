@@ -1,32 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
 }
 
 .container{
-    background-color: aquamarine;
-    border-radius: 3%;
-    width: auto;
+    display: grid;
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
 }
-.container img{
-    
+
+.header {
+    background-image: url('../img/huellas.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px; 
 }
+
+.header h2, h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 40px;
+    margin: auto; 
 }
+
+.header h3 {
+    margin-left: 170px;
+}
+
+.header img {
+    margin: 5px;
+}
+
+.header logo {
+    margin: 10px;
+    color: black;
+}
+
+
 .list{
     background-color:aqua;
-    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    grid-column: 1 / 3;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .list a{
-    text-decoration: none;
-    color: black;
-    padding: 20% 20% 20% 20%;
+    color: #1c4a48;
+    list-style: none;
+    margin: 45px;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    color: white;
+}
+
+ul {
+    padding: 3px; 
+}
+
+hr {
+    display: inline;
+    width: 80%;
+    transform: rotate(180deg);
+}
+
+.box {
+    padding-top: 15px;
+    border-radius: 20px;
+    display: grid;
+    width: 50%;
+    margin: auto;
+    grid-template-columns: 55% auto;
+    column-gap: 15px;
+    row-gap: 10px;
 }
 .servicios{
     background-color: blanchedalmond;
+    width: 100%;
+    grid-column: 1 / 2;
+    border-radius: 20px;
 }
+
+.servicios h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 10px;
+}
+
+.servicios a {
+    list-style: none;
+    color: #1c4a48;
+    font-size: 15px;
+    cursor: pointer;
+    float: left;
+    margin: 10px;
+}
+
+.servicios img {
+    margin: 10px;
+    border: #333 solid;
+    border-radius: 20px;
+}
+
+.text {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.text p {
+    width: 100%;
+    margin: 30px;
+}
+
 .cita{
     background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 100%;
+    color: black;
+    grid-column:3 ;
+    grid-row: 1/3;
 }
+
 .contacto{
     background-color: aqua;
+    font-family: "Roboto Condensed", sans-serif;
+    width: 50%;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: auto;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
 }
