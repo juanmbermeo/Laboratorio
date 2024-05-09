@@ -116,7 +116,11 @@ hr{
   grid-template-rows: 200px 200px;
 }
 .itemgrid1{
-  border-top-left-radius: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: rgb(209, 207, 207);
+  margin: 5px;
+  text-align: center;
   background-color: rgb(209, 207, 207);
   margin: 4px;
   text-align: center;
@@ -133,7 +137,8 @@ hr{
   margin-top: 7px;
 }
 .conteiner-tittle{
-  border-top-left-radius: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   height: 30px;
   background-color: black;
 }
@@ -146,7 +151,7 @@ hr{
   font-style: normal;
 }
 .itemgrid2{
-  border-top-right-radius: 10px;
+  border-top-left-radius: 20px;
   background-color: rgb(209, 207, 207);
   margin: 5px;
   text-align: center;
@@ -163,11 +168,100 @@ hr{
   margin-top: 7px;
 }
 .conteiner-tittle2{
-  border-top-right-radius: 10px;
+  border-top-left-radius: 20px;
   height: 30px;
   background-color: black;
 }
 .conteiner-tittle2 p{
+  color: white;
+  margin-top: 0px;
+  font-size: small;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.itemgrid3{
+  border-top-right-radius: 20px;
+  background-color: rgb(209, 207, 207);
+  margin: 5px;
+  text-align: center;
+}
+
+.itemgrid3 p{
+  margin: 7px;
+  text-align: center;
+  font-size: x-small;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.itemgrid3 img{
+  margin-top: 7px;
+}
+.conteiner-tittle3{
+  border-top-right-radius: 20px;
+  height: 30px;
+  background-color: black;
+}
+.conteiner-tittle3 p{
+  color: white;
+  margin-top: 0px;
+  font-size: small;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.itemgrid4{
+  border-bottom-left-radius: 20px;
+  background-color: rgb(209, 207, 207);
+  margin: 5px;
+  text-align: center;
+}
+.itemgrid4 p{
+  margin: 7px;
+  text-align: center;
+  font-size: x-small;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.itemgrid4 img{
+  margin-top: 7px;
+}
+.conteiner-tittle4{
+  height: 30px;
+  background-color: black;
+}
+.conteiner-tittle4 p{
+  color: white;
+  margin-top: 0px;
+  font-size: small;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.itemgrid5{
+  border-bottom-right-radius: 20px;
+  background-color: rgb(209, 207, 207);
+  margin: 5px;
+  text-align: center;
+}
+.itemgrid5 p{
+  margin: 7px;
+  text-align: center;
+  font-size: x-small;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.itemgrid5 img{
+  margin-top: 7px;
+}
+.conteiner-tittle5{
+  height: 30px;
+  background-color: black;
+}
+.conteiner-tittle5 p{
   color: white;
   margin-top: 0px;
   font-size: small;
