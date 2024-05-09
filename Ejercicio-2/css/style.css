@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.header{
+  justify-content: center;
+  margin: auto;
+  width: 605px;
+  height: 130px;
+  background-color: rgb(95, 95, 95);
+  display: flex;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+.header img{
+  right: 100%;
+  height: 125px;
+  float: inline-end;
+  padding: 2px;
+}
+.header h1{
+  margin: auto;
+  padding-top: 12px;
+  color: rgb(5, 5, 5);
+  margin-right: 26px;
+  padding-top: 15px;
+  padding-left: 0px;
+  color: rgb(44, 44, 44);
+  -webkit-text-stroke: 2px rgb(245, 243, 243);
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.header h3{
+  color: rgb(17, 17, 17);
+  padding-top: 0px;
+  padding-left: 2px;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.line{
+  margin: auto;
+  width: 605px;
+  height: 10px;
+  background-color: black;
+}
+.conteiner-box{
+  width: 44.9%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.conteiner-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  background-color: #f8cb05;
+  height: 60px;
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+nav ul li {
+  padding: 1rem;
+
+}
+
+nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: #ffffff;
+}
+hr{
+  width: 20px;
+  transform: rotate(90deg);
+}
+.titulo{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.conteiner-grid{
+  border: 2px;
+  width: 44.6%;
+  margin: 7px auto;
+  margin-bottom: 1px;
+  margin-right: 366px;
+  padding: 6px;
+  display: grid;
+  border-top-left-radius: 10px ;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: 200px 200px;
+}
+.itemgrid1{
+  border-top-left-radius: 10px;
+  background-color: rgb(209, 207, 207);
+  margin: 4px;
+  text-align: center;
+}
+.itemgrid1 p{
+  margin: 7px;
+  text-align: center;
+  font-size: x-small;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.itemgrid1 img{
+  margin-top: 7px;
+}
+.conteiner-tittle{
+  border-top-left-radius: 10px;
+  height: 30px;
+  background-color: black;
+}
+.conteiner-tittle p{
+  color: white;
+  margin-top: 0px;
+  font-size: small;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.itemgrid2{
+  border-top-right-radius: 10px;
+  background-color: rgb(209, 207, 207);
+  margin: 5px;
+  text-align: center;
+}
+.itemgrid2 p{
+  margin: 7px;
+  text-align: center;
+  font-size: x-small;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.itemgrid2 img{
+  margin-top: 7px;
+}
+.conteiner-tittle2{
+  border-top-right-radius: 10px;
+  height: 30px;
+  background-color: black;
+}
+.conteiner-tittle2 p{
+  color: white;
+  margin-top: 0px;
+  font-size: small;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.form{
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.formbutton{
+  margin-top: 6px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.itemgridmenu{
+  background-color: rgb(24, 24, 24);
+  margin: 5px;
+  text-align: center;
+}
+.itemgridmenu p{
+  margin-top: 1px;
+  color: #dddddd;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.conteiner-tittle-menu{
+  background-color: black;
+  height: 20px;
+}
+.conteiner-tittle-menu p{
+  color: #ff9100;
+  font-size: small;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.hr2{ 
+  transform: rotate(0deg);
+}
+.footer{
+  background-color: rgb(54, 54, 54);
+  width: 44.3%;
+  margin: 15px auto;
+  margin-top: 1px;
+  margin-bottom: 5px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.pie{
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: x-small;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  align-content: center;
+}
